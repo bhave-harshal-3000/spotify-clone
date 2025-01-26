@@ -7,7 +7,7 @@ This project is a clone of the **Spotify** website, created using **HTML**, **CS
 - Basic navigation similar to the original Spotify homepage.
 - Static content that mimics Spotify's layout (Featured Playlists, Sign Up, Login, etc.).
 
-## Technologies Used
+## Language and Technologies Used
 - **HTML**: For page structure.
 - **CSS**: For styling and responsiveness.
 - **JavaScript**: For interactivity and user interactions.
