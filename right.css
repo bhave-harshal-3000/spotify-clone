@@ -1,0 +1,237 @@
+.right .popularartists{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+}
+.right .popularartists h2{
+color: white;
+margin: 12px 0px 0px 24px;
+font-size: 22px;
+font-weight: bolder;
+
+}
+.right .popularartists p{
+color: #b3b3b3;
+margin: 24px 32px 0px 0px;
+font-size: 13px;
+font-weight: 800;
+
+}
+
+.right .singersContainer{
+    display: flex;
+    margin: 0px 0px 0px 10px;
+}
+
+.right .singers{
+    width: 182px;
+    height: 232px;
+    position: relative;
+    
+}
+.right .singers img{
+    width: 155px;
+    padding: 12px 12px 0px 12px;
+    object-fit: contain;
+    border-radius: 50%;
+    
+}
+.right .singers h3{
+    margin:0px 0px 0px 15px;
+    color:white;
+    font-size: 15px;
+    margin-top: 4px;
+}
+.right .singers p{
+    margin:0px 0px 0px 15px;
+    color:#b3b3b3;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.right .singers .greenplaybutton{
+    width: 64px;
+    position: absolute;
+    top: 110px;
+    right: 0;
+    transform: translateY(0); 
+    opacity: 0
+}
+
+.singers:hover .greenplaybutton {
+    opacity: 1;
+    transform: translateY(-24px);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+  }
+
+div.singers:hover {
+    background: linear-gradient(#13131305, #1f1f1f);
+    border-radius: 5px;
+    
+  }
+
+
+/*-------------------------------------------*/
+
+.right .popularalbums{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+}
+.right .popularalbums h2{
+    color: white;
+    margin: 12px 0px 0px 24px;
+    font-size: 22px;
+    font-weight: bolder;
+    
+    }
+.right .popularalbums p{
+    color: #b3b3b3;
+    margin: 24px 32px 0px 0px;
+    font-size: 13px;
+    font-weight: 800;}
+    
+
+  .right .songsContainer{
+    display: flex;
+    margin: 0px 0px 0px 10px;
+}
+
+.right .songs{
+    width: 182px;
+    height: 240px;
+    position: relative;
+    
+}
+.right .songsContainer .songs img:first-child{
+    width: 155px;
+    padding: 12px 12px 12px 12px;
+    object-fit: contain;
+    border-radius: 20px;
+    border: none;
+}
+.right .songs h3{
+    margin:0px 0px 0px 15px;
+    color:white;
+    font-size: 15px;
+    margin-top: 4px;
+}
+.right .songs p{
+    margin:0px 0px 0px 15px;
+    color:#b3b3b3;
+    font-size: 13px;
+    margin-top: 4px;
+}
+      
+.right .songs .greenplaybutton{
+    width: 64px;
+    position: absolute;
+    top: 120px;
+    right: 22px;
+    transform: translateY(0); 
+    opacity: 0
+}
+
+.songs:hover .greenplaybutton {
+    opacity: 1;
+    transform: translateY(-20px);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+  }
+
+div.songs:hover {
+    background: linear-gradient(#13131305, #1f1f1f);
+    border-radius: 5px;
+    
+  }
+
+  /* ---------------------------------------------------------------------------------------------------------------------- */
+
+.right .popularradios{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+}
+.right .popularradios h2{
+    color: white;
+    margin: 12px 0px 0px 24px;
+    font-size: 22px;
+    font-weight: bolder;
+    
+    }
+.right .popularradios p{
+    color: #b3b3b3;
+    margin: 24px 32px 0px 0px;
+    font-size: 13px;
+    font-weight: 800;}
+    
+
+.right .radiosContainer{
+    display: flex;
+    margin: 0px 0px 0px 10px;
+}
+
+.right .radios{
+    width: 182px;
+    height: 240px;
+    position: relative;
+    
+    
+}
+.right .radiosContainer .radios img:first-child{
+    width: 155px;
+    padding: 12px 12px 12px 12px;
+    object-fit: contain;
+    border-radius: 20px;
+    border: none;
+}
+
+.right .radios p{
+    margin:0px 0px 0px 15px;
+    color:#b3b3b3;
+    font-size: 13px;
+    margin-top: 4px;
+}
+      
+.right .radios .greenplaybutton{
+    width: 64px;
+    position: absolute;
+    top: 120px;
+    right: 22px;
+    transform: translateY(0); 
+    opacity: 0
+
+}
+
+.radios:hover .greenplaybutton {
+    opacity: 1;
+    transform: translateY(-20px);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+  }
+
+div.radios:hover {
+    background: linear-gradient(#13131305, #1f1f1f);
+    border-radius: 5px;
+  }
+
+.right .space{
+    height: 50px;
+    width: 100px;
+}
+.right .playbar{
+    position: fixed;
+    bottom: 0;
+    width: 1102px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+
+}
